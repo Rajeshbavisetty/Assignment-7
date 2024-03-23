@@ -1,0 +1,53 @@
+.maincontainer {
+  display: flex;
+
+  width: 100vw;
+  margin-top: 0px;
+}
+.homelogo {
+  height: 25px;
+  width: 25px;
+  color: red;
+}
+.sidelogosize {
+  height: 25px;
+  width: 25px;
+  color: black;
+}
+
+.websitelogosize {
+  height: 50px;
+  width: 16vw;
+}
+.getitnowbutton {
+  background-color: transparent;
+  color: grey;
+  border-color: grey;
+  border-width: 1px;
+  border-style: solid;
+  height: 50px;
+  margin-top: auto;
+  width: 100px;
+}
+.banneritemcontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 50vw;
+}
+.closeiconsize {
+  height: 25px;
+  width: 25px;
+  align-self: flex-start;
+}
+.closebutton {
+  background-color: transparent;
+  border-width: 0px;
+  align-self: flex-start;
+}
+.homecontainer {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
